@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'install'
                 echo '******************************'  
-                echo `${env.REGISTRY_URL}`
+                echo '${env.REGISTRY_URL}'
             }
         }
     }
