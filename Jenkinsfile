@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'install'
                 echo '******************************'  
-                echo `${process.env.BUILD_NUMBER}`
+                echo `${process.env.REGISTRY_URL}`
             }
         }
     }
