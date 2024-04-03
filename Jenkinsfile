@@ -9,8 +9,5 @@ pipeline {
                 echo "buildGGGGGGGG : ${env.BUILD_NUMBER}"
             }
         }
- 
- 
-
     }
 }
