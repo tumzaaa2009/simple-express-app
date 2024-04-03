@@ -8,16 +8,10 @@ pipeline {
             steps {
                 echo 'install'
                 echo '******************************'  
-                echo "build number : ${env.BUILD_NUMBER}"
+                echo "buildGGGGGGGG : ${env.BUILD_NUMBER}"
             }
         }
  
-        stage('npm run start') {
-            steps {
-                echo 'run start'
-                echo '******************************'
-            }
-        }
  
     
     }
