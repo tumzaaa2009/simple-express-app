@@ -1,7 +1,5 @@
 pipeline {
-    
     agent any 
- 
     stages {
  
         stage('npm install'){
@@ -13,6 +11,6 @@ pipeline {
         }
  
  
-    
+
     }
 }
